@@ -10,9 +10,85 @@ Versie:         0.1
 \************************************************************************/
 
 #include "pch.h"
-#include <iostream>
+#include <iostream> 
+#include <string>
+
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n"; 
+	cout << "---   ---   --- \n"
+        "|a|   |b|   |c| \n"
+        "---   ---   --- \n"
+        " .     .     .  \n"
+        "  .    .    .   \n"
+        "   .   .   .    \n"
+        "    .  .  .     \n"
+        "      ---       \n"
+        "      |d|       \n"
+        "      ---       \n"
+        "    .  .  .     \n"
+        "   .   .   .    \n"
+        "  .    .    .   \n"
+        " .     .     .  \n"
+        "---   ---   --- \n"
+        "|e|   |f|   |g| \n"
+        "---   ---   --- \n\n";
+
+	// Declaratie
+	int a;
+	int b;
+	int c;
+	int d;
+	int e;
+	int f;
+	int g;
+
+	// Initialisatie
+	cout << "Voer het cijfer voor letter A in:";
+	cin >> a;
+	cout << "Voer het cijfer voor letter B in:";
+	cin >> b;
+	cout << "Voer het cijfer voor letter C in:";
+	cin >> c;
+	cout << "Voer het cijfer voor letter D in:";
+	cin >> d;
+	cout << "Voer het cijfer voor letter E in:";
+	cin >> e;
+	cout << "Voer het cijfer voor letter F in:";
+	cin >> f;
+	cout << "Voer het cijfer voor letter G in:";
+	cin >> g;
+	cout << "";
+	system("pause");
+
+	cout << "---   ---   --- \n"
+		"|"<< a << "|   |"<< b <<"|   |"<< c <<"| \n"
+		"---   ---   --- \n"
+		" .     .     .  \n"
+		"  .    .    .   \n"
+		"   .   .   .    \n"
+		"    .  .  .     \n"
+		"      ---       \n"
+		"      |"<< d <<"|       \n"
+		"      ---       \n"
+		"    .  .  .     \n"
+		"   .   .   .    \n"
+		"  .    .    .   \n"
+		" .     .     .  \n"
+		"---   ---   --- \n"
+		"|"<< e <<"|   |"<< f <<"|   |"<< g <<"| \n"
+		"---   ---   --- \n\n";
+
+	//Som
+	float adg = a + d + g;
+	float bdf = b + d + f;
+	float cde = c + d + e;
+
+
+	cout << "De som van de lijn adg is " << adg << endl;
+	cout << "De som van de lijn bdf is " << bdf << endl;
+	cout << "De som van de lijn cde is " << cde << endl << endl;
+	cout << "";
+	system("pause");
 }

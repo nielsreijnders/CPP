@@ -62,6 +62,8 @@ int main()
 	cout << "";
 	system("pause");
 
+
+	//Toekenning
 	cout << "---   ---   --- \n"
 		"|"<< a << "|   |"<< b <<"|   |"<< c <<"| \n"
 		"---   ---   --- \n"
@@ -80,12 +82,12 @@ int main()
 		"|"<< e <<"|   |"<< f <<"|   |"<< g <<"| \n"
 		"---   ---   --- \n\n";
 
-	//Som
+	//Som / toekenning
 	float adg = a + d + g;
 	float bdf = b + d + f;
 	float cde = c + d + e;
 
-
+	//Uitvoering
 	cout << "De som van de lijn adg is " << adg << endl;
 	cout << "De som van de lijn bdf is " << bdf << endl;
 	cout << "De som van de lijn cde is " << cde << endl << endl;

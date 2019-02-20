@@ -21,8 +21,6 @@ string OpleidingNaamH201;
 string leerlingNaam;
 int leerlingNummer;
 
-
-
 //Prototype
 void InvoerenKlas();
 void InvoerenOpleiding();
@@ -62,6 +60,7 @@ void InvoerenLeerling()
 }
 
 //Implementatie
+
 void WeergevenLeerling()
 {
 	//UI
@@ -82,7 +81,7 @@ int main()
 	InvoerenLeerling();
 	WeergevenLeerling();
 
-	//UI
+	// UI
 
 	system("pause");
 }

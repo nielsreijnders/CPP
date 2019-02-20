@@ -44,7 +44,7 @@ int main()
 	int f;
 	int g;
 
-	// Initialisatie
+	// Initialisatie!!!!
 	cout << "Voer het cijfer voor letter A in:";
 	cin >> a;
 	cout << "Voer het cijfer voor letter B in:";

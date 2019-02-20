@@ -75,7 +75,7 @@ void WeergevenLeerling()
 //UI
 int main()
 {
-	//functieaanroep
+	//functieaanroep!!!
 	InvoerenKlas();
 	InvoerenOpleiding();
 	InvoerenLeerling();

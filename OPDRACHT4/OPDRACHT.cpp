@@ -65,7 +65,7 @@ int main()
 	cout << "\nVoer de klasgegevens in: \nKlasnaam: ";
 	cin >> klasNaam;
 
-	// Declaratie
+	// Declaratie!!!
 	int toetsOnderdeelA;
 	int toetsOnderdeelB;
 	int toetsOnderdeelC;

@@ -1,21 +1,49 @@
-// XOPDRACHT10.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+/************************** Module Header *******************************\
+Opdracht:       OPDRACHT10
+Auteur:         Niels Reijnders
+Aanmaakdatum:   28-02-2019    09:11
+Bestandsnaam:   xopdracht10.cpp
+Versie:         0.1
+
+\************************************************************************/
 
 #include "pch.h"
+#include "leerling.h"
+#include "onderwijs.h"
+#include "registratie.h"
+#include "vak.h"
 #include <iostream>
+#include <string>
+
+using namespace std;
+
+int registratie[6];
+
+string naam;
+string vaknaam;
 
 int main()
 {
-    std::cout << "Hello World!\n"; 
+    cout << "Voer je leerlingnaam in: \n"; 
+	cin >> naam;
+	cout << "Voer je leerlingnummer in: \n";
+	cin >> registratie[0];
+	cout << "Voer je vaknaam in: \n";
+	cin >> vaknaam;
+	cout << "Voer je vaknummer in: \n";
+	cin >> registratie[1];
+	cout << "Voer de datum in: \n";
+	cin >> registratie[2];
+	cout << "Voer de periode in: \n";
+	cin >> registratie[3];
+	cout << "Voer je lesblok in: \n";
+	cin >> registratie[4];
+	cout << "Voer de aanwezigheid 1 <aanwezig> of 0 <afwezig> in: \n";
+	cin >> registratie[5];
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+//Implementatie
+void invoerenRegistratie()
+{
+	cout << "Voer de aanwezigheid 1 (aanwezig) of 0 (afwezig) in: "; cin >> registratie[5];
+}void invoerenRegistratie();

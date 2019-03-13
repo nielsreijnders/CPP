@@ -17,8 +17,6 @@ Versie:         0.1
 
 using namespace std;
 
-int registratie[6];
-
 string naam;
 string vaknaam;
 
@@ -42,8 +40,4 @@ int main()
 	cin >> registratie[5];
 }
 
-//Implementatie
-void invoerenRegistratie()
-{
-	cout << "Voer de aanwezigheid 1 (aanwezig) of 0 (afwezig) in: "; cin >> registratie[5];
-}void invoerenRegistratie();
+

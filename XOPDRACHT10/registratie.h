@@ -1,6 +1,11 @@
-#pragma once
+/************************** Module Header *******************************\
+Opdracht:       opdracht5
+Auteur:         Niels Reijnders
+Aanmaakdatum:   14-03-2019    09:07
+Bestandsnaam:   opdracht15.cpp
+Versie:         0.1
 
-
+\************************************************************************/
 
 int registratie[6];
 

@@ -3,10 +3,18 @@
 
 #include "pch.h"
 #include <iostream>
+#include <string>
 
 using namespace std;
 
+#include "Datum.h"
+#include "Leerling.h"
+
 int main()
 {
+	Leerling leerling[5];
+	Datum datum;
 
+	InvoerenLeerlingen(leerling);
+	
 }

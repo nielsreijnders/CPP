@@ -16,5 +16,6 @@ int main()
 	Datum datum;
 
 	InvoerenLeerlingen(leerling);
-	
-}
+	InvoerenLeerlingnummer();
+	ZoekenOpLeerlingen(leerling);
+};

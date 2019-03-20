@@ -1,5 +1,3 @@
-#pragma once
-
 struct Leerling {
 	string naam;
 	int nummerMobiel[2];
@@ -11,6 +9,8 @@ int LeerlingNummer;
 
 // Prototype
 void InvoerenLeerlingen(Leerling[]);
+void InvoerenLeerlingnummer();
+void ZoekenOpLeerlingen(Leerling[]);
 
 void InvoerenLeerlingen(Leerling leerling[5]) {
 
@@ -55,4 +55,31 @@ void InvoerenLeerlingen(Leerling leerling[5]) {
 	leerling[4].geboorteDatum.dagMaandJaar[2] = 1969;
 
 
+};
+
+void InvoerenLeerlingnummer() 
+{
+	// Initialisatie
+	cout << "Voer het leerlingnummer in: ";
+	cin >> LeerlingNummer;
+};
+
+void ZoekenOpLeerlingen(Leerling leerling[5])
+{
+	int nee =0;
+	for(int i = 0; i < 5; i++)
+	{
+		/* code */
+		if (leerling[i].nummerMobiel[0] == LeerlingNummer) {
+			/* code */
+			cout << "Leerlingnummmer " << LeerlingNummer << " hoort bij de leerlingnaam " << leerling[i].naam;
+		} else  {
+			nee = nee+1;
+		} 
+		
+	}
+	if (nee == 5){
+		cout << "Leerling met leerlingnummer " << LeerlingNummer << " is niet gevonden. ";
+	}
+	
 };

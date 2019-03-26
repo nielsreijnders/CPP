@@ -12,17 +12,19 @@ class Deelnemer
 	private: string deelnemerNaam;
 
 	public: int rugnummerChipnummer[2];
-		//constructor
-		Deelnemer()
-		{
-			
-		}
+		Deelnemer();
+		
 		//methoden
 		void invoeren();
 		void weergeven();
 };
 
-//implemenaamtatie
+//constructor
+Deelnemer::Deelnemer()
+{
+	
+}
+
 void Deelnemer::invoeren()
 {
 	//initialisatie

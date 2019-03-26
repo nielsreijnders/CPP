@@ -21,7 +21,7 @@ int main()
 	//constructie
 	Deelnemer deelnemer1;
 
-	//functie aanroep
+	//functie aanroepen
 	deelnemer1.invoeren();
 	deelnemer1.weergeven();
 	system("pause");

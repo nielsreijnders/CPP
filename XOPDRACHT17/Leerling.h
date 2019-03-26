@@ -26,6 +26,8 @@ void ZoekenOpLeerlingen(Leerling[]);
 
 void InvoerenLeerlingen(Leerling leerling[5]) {
 
+	// Initialisatie
+
 	//leerling 1
 	leerling[0].naam = "Piet";
 	leerling[0].nummerMobiel[0] = 1;

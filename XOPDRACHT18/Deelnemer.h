@@ -1,12 +1,21 @@
+/************************** Module Header *******************************\
+Opdracht:       opdracht5
+Auteur:         Niels Reijnders
+Aanmaakdatum:   20-03-2019    11:22
+Bestandsnaam:   Deelnemer.h
+Versie:         0.1
+
+\************************************************************************/
+
 class Deelnemer
 {
-private: string deelnemerNaam;
+	private: string deelnemerNaam;
 
-public: int rugnummerChipnummer[2];
+	public: int rugnummerChipnummer[2];
 		//constructor
 		Deelnemer()
 		{
-
+			
 		}
 		//methoden
 		void invoeren();

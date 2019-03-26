@@ -1,5 +1,11 @@
-// XOPDRACHT16.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+/************************** Module Header *******************************\
+Opdracht:       opdracht5
+Auteur:         Niels Reijnders
+Aanmaakdatum:   20-03-2019    11:22
+Bestandsnaam:   XOPDRACHT16.cpp
+Versie:         0.1
+
+\************************************************************************/
 
 #include "pch.h"
 #include <iostream>
@@ -12,8 +18,8 @@ using namespace std;
 
 int main()
 {
+	// Constructor
 	Leerling leerling[5];
-	Datum datum;
 
 	InvoerenLeerlingen(leerling);
 	InvoerenLeerlingnummer();

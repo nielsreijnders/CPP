@@ -13,7 +13,7 @@ int leerlingnummer;
 //prototype
 void invoerenLeerling(Leerling & Leerling1, Leerling & Leerling2);
 void invoerenLeerlingnummer();
-void zoekenOpLeerlingnummer(Leerling & Leerling1, Leerling & Leerling2);
+void zoekenOpLeerlingnummer(Leerling Leerling1, Leerling Leerling2);
 
 void invoerenLeerling(Leerling & Leerling1, Leerling & Leerling2)
 {
@@ -41,7 +41,7 @@ void invoerenLeerlingnummer()
 	cin >> leerlingnummer;
 }
 
-void zoekenOpLeerlingnummer(Leerling & Leerling1, Leerling & Leerling2)
+void zoekenOpLeerlingnummer(Leerling Leerling1, Leerling Leerling2)
 {
 	// UI
 	if (Leerling1.nummerMobiel[0] == leerlingnummer) {

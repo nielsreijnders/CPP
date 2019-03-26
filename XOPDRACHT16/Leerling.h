@@ -1,3 +1,13 @@
+/************************** Module Header *******************************\
+Opdracht:       opdracht5
+Auteur:         Niels Reijnders
+Aanmaakdatum:   20-03-2019    11:22
+Bestandsnaam:   Leerling.h
+Versie:         0.1
+
+\************************************************************************/
+
+// Declaratie
 struct Leerling {
 	string naam;
 	int nummerMobiel[2];
@@ -66,17 +76,18 @@ void InvoerenLeerlingnummer()
 
 void ZoekenOpLeerlingen(Leerling leerling[5])
 {
-	int nee =0;
+
+	// Declaratie + initialisatie
+	int nee = 0;
 	for(int i = 0; i < 5; i++)
 	{
-		/* code */
 		if (leerling[i].nummerMobiel[0] == LeerlingNummer) {
-			/* code */
+
 			cout << "Leerlingnummmer " << LeerlingNummer << " hoort bij de leerlingnaam " << leerling[i].naam;
+
 		} else  {
 			nee = nee+1;
 		} 
-		
 	}
 	if (nee == 5){
 		cout << "Leerling met leerlingnummer " << LeerlingNummer << " is niet gevonden. ";
